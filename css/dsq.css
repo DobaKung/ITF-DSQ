@@ -62,6 +62,10 @@ header {
 	width: 500px;
 }
 
+.discover .menu {
+    margin-top: -15px;
+}
+
 /* SECTION - TIMELINE */
 
 section#timeline {
@@ -104,7 +108,7 @@ button {
 		padding: 25px 10px 50px;
 	}
 	.discover, .discover button, .discover .dropdown-pane {
-		width: 640px;
+		width: 580px;
 		text-align: center;
 	}
 	.discover h1, .discover button {
@@ -115,7 +119,7 @@ button {
 
 @media screen and (max-width: 640px) {
 	.discover, .discover button, .discover .dropdown-pane {
-		width: 480px;
+		width: 320px;
 	}
 	.top-bar-left {
 		width: auto !important;
@@ -131,8 +135,14 @@ button {
 
 @media screen and (max-width: 480px) {
 	.discover, .discover button, .discover .dropdown-pane {
-		width: 360px;
+		width: 300px;
 	}
+    .discover .menu li {
+        margin-bottom: 15px;
+    }
+    .discover .menu li:last-child {
+        margin-bottom: 0;
+    }
 }
 
 @media screen and (max-width: 360px) {
