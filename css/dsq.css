@@ -53,6 +53,10 @@ header {
 	color: #000;
 }
 
+.discover button h1 {
+    margin-bottom: 0;
+}
+
 .discover .dropdown-pane {
 	font-family: "Proxima Nova Bold";
 	width: 500px;
