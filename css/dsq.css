@@ -11,7 +11,19 @@ h1,h2,button {font-family: "Proxima Nova Bold" !important;}
 	color: #000;
 	margin-right: 15px;
 }
-
+.detail {
+    background: #beb4b4;
+    box-sizing: border-box;
+    border-radius: 5px;
+    padding: 15px 15px 15px 15px;
+    margin-bottom: 30px;
+}
+.detail h5{
+    color: floralwhite;
+}
+.center-thing{
+    text-align: center;
+}
 .top-bar .logo {
 	width: 120px;
 	margin-top: 13px;
@@ -102,7 +114,6 @@ button {
 }
 
 /* MEDIA QUERIES */
-
 @media screen and (max-width: 768px) {
 	header {
 		padding: 25px 10px 50px;
