@@ -115,6 +115,9 @@ button {
 		display: block;
 		margin: 0 auto;
 	}
+    .discover h1 {
+        margin-bottom: 10px;
+    }
 }
 
 @media screen and (max-width: 640px) {
@@ -137,6 +140,9 @@ button {
 	.discover, .discover button, .discover .dropdown-pane {
 		width: 300px;
 	}
+    .discover button {
+        padding: 8px;
+    }
     .discover .menu li {
         margin-bottom: 15px;
     }
