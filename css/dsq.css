@@ -58,6 +58,31 @@ header {
 	width: 500px;
 }
 
+/* SECTION - TIMELINE */
+
+section#timeline {
+	margin: 30px 0;
+}
+
+section#timeline h2 {
+	margin-bottom: 25px;
+}
+
+section#timeline .thumb img {
+	width: 100%;
+	margin-bottom: 13px;
+	border-radius: 5px;
+	box-shadow: 0 10px 20px rgba(0,0,0,0.12);
+}
+
+section#timeline .tile-group {
+	margin-bottom: 35px;
+}
+
+section#timeline .tile-group:last-child {
+	margin-bottom: 10px;
+}
+
 /* BUTTONS */
 
 button {
@@ -87,6 +112,16 @@ button {
 @media screen and (max-width: 640px) {
 	.discover, .discover button, .discover .dropdown-pane {
 		width: 480px;
+	}
+	.top-bar-left {
+		width: auto !important;
+	}
+	.top-bar-right {
+		width: auto !important;
+		float: right;
+	}
+	.top-bar button {
+		margin-right: 2px !important;
 	}
 }
 
