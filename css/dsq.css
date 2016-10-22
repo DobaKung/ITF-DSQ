@@ -134,6 +134,12 @@ button {
 	.top-bar button {
 		margin-right: 2px !important;
 	}
+    .discover .menu li {
+        margin-bottom: 15px;
+    }
+    .discover .menu li:last-child {
+        margin-bottom: 0;
+    }
 }
 
 @media screen and (max-width: 480px) {
@@ -144,7 +150,7 @@ button {
         padding: 8px;
     }
     .discover .menu li {
-        margin-bottom: 15px;
+        margin-bottom: 25px;
     }
     .discover .menu li:last-child {
         margin-bottom: 0;
