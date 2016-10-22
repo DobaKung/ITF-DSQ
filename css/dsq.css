@@ -1,0 +1,103 @@
+h1,h2,button {font-family: "Proxima Nova Bold" !important;}
+
+/* HEADER */
+
+.top-bar, .top-bar ul {
+	background: transparent !important;
+}
+
+.top-bar button {
+	background: #fff;
+	color: #000;
+	margin-right: 15px;
+}
+
+.top-bar .logo {
+	width: 120px;
+	margin-top: 13px;
+}
+
+.top-bar .avatar {
+	width: 40px;
+	margin-left: 15px;
+	border-radius: 20px;
+	border: 2px solid #fff;
+}
+
+header {
+	background: #f25a81;
+	background: -webkit-linear-gradient(top left,#f25a81,#ffa011);
+	background: -o-linear-gradient(top left,#f25a81,#ffa011);
+	background: -moz-linear-gradient(top left,#f25a81,#ffa011);
+	background: linear-gradient(top left, #f25a81, #ffa011);
+	color: #fff;
+	padding: 25px 0 50px;
+}
+
+.discover {
+	margin-top: 50px;
+	width: 712px;
+}
+
+.discover h1 {
+	display: inline-block;
+}
+
+.discover button {
+	display: inline-block;
+	padding: 0 20px;
+	margin-left: 18px;
+	width: 500px;
+	text-align: left;
+	background: #fff;
+	color: #000;
+}
+
+.discover .dropdown-pane {
+	font-family: "Proxima Nova Bold";
+	width: 500px;
+}
+
+/* BUTTONS */
+
+button {
+	box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+}
+
+.rounded {
+	border-radius: 5px !important;
+}
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 768px) {
+	header {
+		padding: 25px 10px 50px;
+	}
+	.discover, .discover button, .discover .dropdown-pane {
+		width: 640px;
+		text-align: center;
+	}
+	.discover h1, .discover button {
+		display: block;
+		margin: 0 auto;
+	}
+}
+
+@media screen and (max-width: 640px) {
+	.discover, .discover button, .discover .dropdown-pane {
+		width: 480px;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	.discover, .discover button, .discover .dropdown-pane {
+		width: 360px;
+	}
+}
+
+@media screen and (max-width: 360px) {
+	.discover, .discover button, .discover .dropdown-pane {
+		width: 300px;
+	}
+}
