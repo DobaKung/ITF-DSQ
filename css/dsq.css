@@ -100,9 +100,36 @@ section#timeline .tile-group {
 section#timeline .tile-group:last-child {
 	margin-bottom: 10px;
 }
+
 section#sign label{
    padding-top: 50px;
 }
+
+/* SECTION - PROFILE */
+
+section#profile-box {
+    width: 100%;
+    max-width: 360px;
+    margin: 25px auto;
+    text-align: center;
+}
+
+section#profile-box p {
+    margin-bottom: 0;
+}
+
+section#profile-box img {
+    width: 120px;
+    border: 4px solid #fff;
+    border-radius: 60px;
+    margin: 4px 0 20px;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.2);
+}
+
+#timeline-profile img {
+    margin-bottom: 20px !important;
+}
+
 /* SINGLE */
 
 .art-meta {
@@ -146,6 +173,9 @@ button {
 	}
     .discover h1 {
         margin-bottom: 10px;
+    }
+    section#timeline .row {
+        width: 90%;
     }
 }
 
