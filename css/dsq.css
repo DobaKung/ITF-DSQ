@@ -101,6 +101,10 @@ section#timeline .tile-group:last-child {
 	margin-bottom: 10px;
 }
 
+section#sign label{
+   padding-top: 50px;
+}
+
 /* SECTION - PROFILE */
 
 section#profile-box {
