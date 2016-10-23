@@ -122,6 +122,10 @@ section#profile-box img {
     box-shadow: 0 6px 20px rgba(0,0,0,0.2);
 }
 
+#timeline-profile img {
+    margin-bottom: 20px !important;
+}
+
 /* SINGLE */
 
 .art-meta {
@@ -165,6 +169,9 @@ button {
 	}
     .discover h1 {
         margin-bottom: 10px;
+    }
+    section#timeline .row {
+        width: 90%;
     }
 }
 
