@@ -101,10 +101,6 @@ section#timeline .tile-group:last-child {
 	margin-bottom: 10px;
 }
 
-section#sign label{
-   padding-top: 50px;
-}
-
 /* SECTION - PROFILE */
 
 section#profile-box {
@@ -128,6 +124,17 @@ section#profile-box img {
 
 #timeline-profile img {
     margin-bottom: 20px !important;
+}
+
+/* SECTION - SIGNIN */
+
+section#signin {
+    margin: 45px 0;
+}
+
+.login-box {
+    width: 100%;
+    max-width: 350px;
 }
 
 /* SINGLE */
@@ -159,6 +166,7 @@ button {
 }
 
 /* MEDIA QUERIES */
+
 @media screen and (max-width: 768px) {
 	header {
 		padding: 25px 10px 50px;
@@ -202,6 +210,13 @@ button {
     .art-meta {
         margin-top: 20px;
     }
+    .login-box {
+        max-width: none;
+    }
+    .login-regis {
+        margin-top: 25px !important;
+    }
+    
 }
 
 @media screen and (max-width: 480px) {
