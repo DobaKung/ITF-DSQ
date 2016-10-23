@@ -157,6 +157,9 @@ button {
     .discover .menu li:last-child {
         margin-bottom: 0;
     }
+    .art-meta {
+        margin-top: 20px;
+    }
 }
 
 @media screen and (max-width: 480px) {
