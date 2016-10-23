@@ -100,7 +100,9 @@ section#timeline .tile-group {
 section#timeline .tile-group:last-child {
 	margin-bottom: 10px;
 }
-
+section#sign label{
+   padding-top: 50px;
+}
 /* SINGLE */
 
 .art-meta {
