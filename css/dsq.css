@@ -1,4 +1,4 @@
-h1,h2,button {font-family: "Proxima Nova Bold" !important;}
+h1,h2,h3,h4,h5,button {font-family: "Proxima Nova Bold" !important;}
 
 /* HEADER */
 
@@ -11,19 +11,7 @@ h1,h2,button {font-family: "Proxima Nova Bold" !important;}
 	color: #000;
 	margin-right: 15px;
 }
-.detail {
-    background: #beb4b4;
-    box-sizing: border-box;
-    border-radius: 5px;
-    padding: 15px 15px 15px 15px;
-    margin-bottom: 30px;
-}
-.detail h5{
-    color: floralwhite;
-}
-.center-thing{
-    text-align: center;
-}
+
 .top-bar .logo {
 	width: 120px;
 	margin-top: 13px;
@@ -101,6 +89,24 @@ section#timeline .tile-group {
 
 section#timeline .tile-group:last-child {
 	margin-bottom: 10px;
+}
+
+/* SINGLE */
+
+.art-meta {
+    background: #beb4b4;
+    box-sizing: border-box;
+    border-radius: 5px;
+    padding: 23px 20px 12px;
+    margin-bottom: 20px;
+}
+
+.art-meta h5 {
+    color: floralwhite;
+}
+
+img.single {
+    width: 100%;
 }
 
 /* BUTTONS */
