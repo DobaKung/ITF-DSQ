@@ -150,15 +150,11 @@ section#signin {
 /* SECTION - SINGLE */
 
 .art-meta {
-    background: #beb4b4;
+    background: #e6e6e6;
     box-sizing: border-box;
     border-radius: 5px;
     padding: 23px 20px 12px;
     margin-bottom: 20px;
-}
-
-.art-meta h5 {
-    color: floralwhite;
 }
 
 img.single {
