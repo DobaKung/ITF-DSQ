@@ -70,7 +70,7 @@ header {
 
 /* SECTION - TIMELINE */
 
-section#timeline {
+section#timeline, section#single {
 	margin: 30px 0;
 }
 
@@ -147,7 +147,7 @@ section#signin {
 	margin-top: 25px;
 }
 
-/* SINGLE */
+/* SECTION - SINGLE */
 
 .art-meta {
     background: #beb4b4;
