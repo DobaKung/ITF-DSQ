@@ -60,6 +60,8 @@ header {
 .discover .dropdown-pane {
 	font-family: "Proxima Nova Bold";
 	width: 500px;
+	border: none;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.2);
 }
 
 .discover .menu {
@@ -135,6 +137,14 @@ section#signin {
 .login-box {
     width: 100%;
     max-width: 350px;
+}
+
+.login-box button {
+	margin-top: 10px;
+}
+
+.login-box button.login {
+	margin-top: 25px;
 }
 
 /* SINGLE */
